@@ -1,0 +1,85 @@
+/* Inserta tu codigo aqui */
+
+/*section banner*/
+.banner {
+	background-image: url('../img/dance_1.jpg');
+	height: 380px;
+}
+.banner h1{
+	font-size: 60px;
+	color: #E3E3E3;
+}
+.banner p{
+	font-size: 12px;
+	color: #E3E3E3;
+}
+.boton-inscribete a{
+    background: rgba(0, 0, 0, 0.3);
+	width: 60%;
+    padding: 5%;
+   	display: block;
+}
+.boton a:hover{
+	background: white;
+	color: #192951;
+	border:2px #192951 solid;
+	font-weight: bold;
+}
+
+/*section intro*/
+.intro p {
+	font-size: 20px;
+}
+.intro img {
+	width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+.boton-intro a {
+	width: 30%;
+    padding: 1%;
+    background: #1A2952;
+    display: block;
+    margin: 0 auto;
+}
+
+/*section nuestros profesores*/
+.nuestros-profesores{
+	height: 310px;
+}
+.cont-left {
+background-image: url('../img/instructor_4.jpg');
+}
+.cont-right {
+	background-image: url('../img/profesor_9.jpg');	
+}
+.cont-right, .cont-left {
+	border:1px #1A2946 solid;
+	height: 310px;
+}
+.boton-profesores a {
+	width: 40%;
+    padding: 2%;
+    background: #1A2952;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+}
+
+/*section frase*/
+.frase {
+	font-size: 40px;
+}
+
+/*section ubicacion*/
+.ubicacion{
+	background: #1A2952;
+}
+.ubicacion .ub-text{
+	font-size: 13px;
+	color: #E3E3E3;
+}
+.ub-map iframe{
+	height: 250px;
+}

@@ -1,0 +1,42 @@
+/* Inserta tu codigo aqui */ 
+
+/*section banner*/
+.banner {
+	background-image: url('../img/dance_7.jpg');
+    background-position: left;
+    height: 420px;
+    background-size: 130%;
+
+}
+.cont-banner{
+	width: 40%;
+    padding: 5%;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.cont-banner p{
+	padding: 2% 0
+}
+.cont-banner p{
+    font-size: 12px;
+}
+/*Section Pilar*/
+
+/*Section instructores*/
+.img-inst{
+    height: 160px;
+    overflow: hidden;
+}
+.text-inst {
+	position: relative;
+    padding: 5% 0;
+    background: white; 
+}
+/*Instructores*/
+
+/*section frase*/
+.frase {
+	font-size: 40px;
+}
